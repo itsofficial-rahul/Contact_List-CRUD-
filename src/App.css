@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ae-zone {
+  background-color: rgb(219, 155, 81);
+text-align: center;
+font-size: x-large;
+margin-top: 20px;
+padding-left: 20px;
+
+ }
+ .table1 {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 2000px;
+    font-size: large;
+    line-height: 1.5rem;
+    letter-spacing: 0.01071em;
+    display: table-cell;
+    vertical-align: inherit;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    text-align: left;
+    padding: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    color: rgba(0, 0, 0, 0.87); 
+   
+} 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input1{
+    margin-top: 20px;
+    padding-left: 20px;
+    float: left;
+    border-color: black;
+}
+.input2{
+  margin-top: 20px;
+  padding-left: 20px;
+  float: left;
+}
+.btn1{
+  margin-top: 30px;
+  padding-left: 20px;
+  float:left ;
+  
+}
+.tbl{
+  margin-top: 100px;
+  
+}
+.table_complete{
+  border: 2px solid red;
+  width: 700px;
+  margin-left: 200px;
+  height: 600px;
+  overflow: auto;
+  background-color: rgb(166, 180, 160);
+}
+.editbtn{
+  border:none;
+  color:blue;
+  font-size: larger;
+  background-color: white;
+}
+.editbtn:hover{
+  color: red;
+
+}
+.deletbtn{
+  border:none;
+  color:blue;
+  font-size: larger;
+  background-color: white;
+}
+.deletbtn:hover{
+  color: red;
+
+}
