@@ -44,7 +44,7 @@ function App() {
 			setname('');
 			setnumber('');
 			settoggle(false);
-		} else {
+		} else if (name !== '' && number !== '') {
       toast.success('Contact Added', {
         position: "top-center",
         autoClose: 1,
