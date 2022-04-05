@@ -94,18 +94,18 @@ function App() {
 						onChange={(e) => setname(e.target.value)}
 						label='Enter Name'
 						color='secondary'
-						focused
+						
 					/>
 				</div>
 				<div className='input2'>
 					<TextField
 						required
 						value={number}
-						type='tel'
+						type='number'
 						onChange={(e) => setnumber(e.target.value)}
 						label='Enter Mobile'
 						color='secondary'
-						focused
+						
 					/>
 				</div>
 				<div className='btn1'>
